@@ -15,7 +15,7 @@ Clone this Repository.
 
 On a system running Mysql server, execute the schema file on Backend/app/db/schema.sql, add your local credentials by environmental variables or directly on Backend/app/config/connection.js.
 
-In the front-end directory run: 'npm run build' to create a production bundle, when it finishes copy the build folder to the Backend directory.
+In the front-end directory run:'npm install' and when it finishes run: 'npm run build' to create a production bundle, after that copy the build folder to the Backend directory.
 
 In the backend directory run 'npm install' and then 'npm run start' to start the server.
 

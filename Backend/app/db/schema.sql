@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS todos_db;
+CREATE DATABASE todos_db;
+
+USE todos_db;
 CREATE TABLE to_dos
 (
     id INT NOT NULL AUTO_INCREMENT,
